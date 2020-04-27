@@ -1,0 +1,56 @@
+metadata:
+  annotations:
+    architecture: x86_64
+    authoritative-source-url: registry.access.redhat.com
+    build-date: 2019-10-29T16:44:53.794580
+    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
+    commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
+    commit.stack.appsody.dev/contextDir: /incubator/java-microprofile
+    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
+    description: This image is the Kabanero development container for the java-microprofile
+      stack
+    distribution-scope: public
+    image.opencontainers.org/created: "2020-04-27T12:17:49Z"
+    k8s.io/description: The Universal Base Image is designed and engineered to be
+      the base layer for all of your containerized applications, middleware and utilities.
+      This base image is freely redistributable, but Red Hat only supports Red Hat
+      technologies through subscriptions for Red Hat products. This image is maintained
+      by Red Hat and updated regularly.
+    k8s.io/display-name: Red Hat Universal Base Image 8
+    maintainer: Red Hat, Inc.
+    name: kabanero/java-microprofile
+    openshift.io/expose-services: ""
+    openshift.io/tags: base rhel8
+    redhat.com/build-host: cpt-1002.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/component: ubi8-container
+    redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
+    release: "277"
+    stack.appsody.dev/authors: Emily Jiang <emijiang6@googlemail.com>, Neeraj Laad
+      <neeraj.laad@gmail.com>, Ozzy <ozzy@ca.ibm.com>
+    stack.appsody.dev/configured: docker.io/kabanerobeta/java-microprofile:0.2
+    stack.appsody.dev/created: "2020-04-03T08:26:27Z"
+    stack.appsody.dev/description: Eclipse MicroProfile on Open Liberty & OpenJ9 using
+      Maven
+    stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/java-microprofile/README.md
+    stack.appsody.dev/licenses: Apache-2.0
+    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
+    stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/java-microprofile/image
+    stack.appsody.dev/tag: docker.io/kabanerobeta/java-microprofile:0.2.26
+    stack.appsody.dev/title: Eclipse MicroProfile®
+    stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/java-microprofile
+    summary: Image for Kabanero java-microprofile development
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
+    vcs-ref: c42933bcdbf9f1c232e981a5e40de257c3534c8e
+    vcs-type: git
+    vendor: Kabanero
+    version: 0.2.26
+  creationTimestamp: null
+  labels:
+    image.opencontainers.org/title: java-microprofile
+    stack.appsody.dev/id: java-microprofile
+    stack.appsody.dev/version: 0.2.26
+spec:
+  applicationImage: docker.io/kvijai/java-mp-image:latest
+  createKnativeService: false
+status: {}
