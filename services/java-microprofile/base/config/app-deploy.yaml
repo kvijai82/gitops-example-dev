@@ -1,4 +1,4 @@
-apiVersion: appsody.dev/v1beta1
+iVersion: appsody.dev/v1beta1
 kind: AppsodyApplication
 metadata:
   annotations:
